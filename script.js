@@ -437,7 +437,7 @@ const questions = [
   },
   {
     question: "What is a binomial tree?",
-    answers: [
+    answeers: [
       {
         text: "A tree where each node has at most two children",
         correct: false,
@@ -453,7 +453,7 @@ const questions = [
   {
     question:
       "Which operation is NOT supported efficiently by a binomial heap?",
-    answers: [
+    answeers: [
       { text: "Insertion", correct: false },
       { text: "Deletion", correct: false },
       { text: "Union", correct: false },
@@ -463,7 +463,7 @@ const questions = [
   {
     question:
       "In a binomial heap, what is the time complexity of inserting a new element?",
-    answers: [
+    answeers: [
       { text: "O(log n)", correct: true },
       { text: "O(n)", correct: false },
       { text: "O(log^2 n)", correct: false },
@@ -472,7 +472,7 @@ const questions = [
   },
   {
     question: "What is the maximum height of a binomial tree with n nodes?",
-    answers: [
+    answeers: [
       { text: "n", correct: false },
       { text: "2n", correct: false },
       { text: "log_2 n", correct: false },
@@ -482,7 +482,7 @@ const questions = [
   {
     question:
       "Which of the following is a property of a binomial tree of order k?",
-    answers: [
+    answeers: [
       { text: "It has k children", correct: false },
       { text: "It has 2^k nodes", correct: true },
       { text: "It has k+1 nodes", correct: false },
@@ -491,7 +491,7 @@ const questions = [
   },
   {
     question: "What operation is typically used to merge two binomial heaps?",
-    answers: [
+    answeers: [
       { text: "Union", correct: true },
       { text: "Intersection", correct: false },
       { text: "Difference", correct: false },
@@ -500,7 +500,7 @@ const questions = [
   },
   {
     question: "Which of the following statements about binomial heaps is true?",
-    answers: [
+    answeers: [
       { text: "They are always balanced binary trees", correct: false },
       {
         text: "They support constant time insertion and deletion",
@@ -516,7 +516,7 @@ const questions = [
   {
     question:
       "In a binomial heap, what is the purpose of the 'merge' operation?",
-    answers: [
+    answeers: [
       {
         text: "Combining two trees of the same order into one tree of the next order",
         correct: true,
@@ -529,7 +529,7 @@ const questions = [
   {
     question:
       "Which of the following is NOT a common application of binomial heaps?",
-    answers: [
+    answeers: [
       { text: "Priority queue", correct: false },
       { text: "Sorting algorithms", correct: true },
       { text: "Dijkstra's shortest path algorithm", correct: false },
@@ -539,7 +539,7 @@ const questions = [
   {
     question:
       "What is the advantage of using a binomial heap over a binary heap?",
-    answers: [
+    answeers: [
       {
         text: "Binomial heaps have better worst-case time complexity for most operations",
         correct: true,
@@ -551,7 +551,7 @@ const questions = [
   },
   {
     question: "What is the purpose of a winner tree?",
-    answers: [
+    answeers: [
       { text: "To store elements in a sorted order", correct: false },
       {
         text: "To efficiently find the maximum (or minimum) element among a set of elements",
@@ -563,7 +563,7 @@ const questions = [
   },
   {
     question: "In a winner tree, what do the leaves represent?",
-    answers: [
+    answeers: [
       { text: "Internal nodes", correct: false },
       { text: "The maximum element", correct: false },
       { text: "The elements themselves", correct: true },
@@ -572,7 +572,7 @@ const questions = [
   },
   {
     question: "How are winner trees commonly used in algorithms?",
-    answers: [
+    answeers: [
       { text: "For graph traversal", correct: false },
       { text: "For heap sort", correct: false },
       { text: "For tournament-style algorithms", correct: true },
@@ -581,7 +581,7 @@ const questions = [
   },
   {
     question: "Which node of a winner tree contains the overall winner?",
-    answers: [
+    answeers: [
       { text: "Root node", correct: true },
       { text: "Leaf nodes", correct: false },
       { text: "Internal nodes", correct: false },
@@ -590,7 +590,7 @@ const questions = [
   },
   {
     question: "What operation is performed to construct a winner tree?",
-    answers: [
+    answeers: [
       { text: "Merge", correct: false },
       { text: "Compare", correct: true },
       { text: "Split", correct: false },
@@ -600,7 +600,7 @@ const questions = [
   {
     question:
       "Which of the following is NOT a step in using a winner tree to find the maximum element?",
-    answers: [
+    answeers: [
       { text: "Initialize the winner tree", correct: false },
       { text: "Insert elements in random order", correct: true },
       { text: "Construct the winner tree", correct: false },
@@ -609,7 +609,7 @@ const questions = [
   },
   {
     question: "What type of elements can be compared using a winner tree?",
-    answers: [
+    answeers: [
       { text: "Numbers only", correct: false },
       { text: "Strings only", correct: false },
       { text: "Any comparable elements", correct: true },
@@ -618,7 +618,7 @@ const questions = [
   },
   {
     question: "How does a winner tree compare elements?",
-    answers: [
+    answeers: [
       { text: "Using hashing", correct: false },
       { text: "By iterating through all elements", correct: false },
       { text: "By comparing pairs of elements recursively", correct: true },
@@ -628,7 +628,7 @@ const questions = [
   {
     question:
       "Which data structure is NOT commonly implemented using winner trees?",
-    answers: [
+    answeers: [
       { text: "Priority queue", correct: false },
       { text: "Heap", correct: false },
       { text: "Hash table", correct: true },
@@ -638,7 +638,7 @@ const questions = [
   {
     question:
       "In a winner tree with n elements, how many comparisons are needed to find the maximum element?",
-    answers: [
+    answeers: [
       { text: "n", correct: false },
       { text: "log n", correct: false },
       { text: "2n - 1", correct: true },
@@ -647,7 +647,7 @@ const questions = [
   },
   {
     question: "What is the Bellman-Ford algorithm used for?",
-    answers: [
+    answeers: [
       {
         text: "Finding the shortest path in a weighted directed graph with negative edge weights",
         correct: true,
@@ -663,7 +663,7 @@ const questions = [
   {
     question:
       "Which data structure is commonly used to represent graphs in the Bellman-Ford algorithm?",
-    answers: [
+    answeers: [
       { text: "Arrays", correct: false },
       { text: "Linked lists", correct: false },
       { text: "Hash tables", correct: false },
@@ -672,7 +672,7 @@ const questions = [
   },
   {
     question: "What is the time complexity of the Bellman-Ford algorithm?",
-    answers: [
+    answeers: [
       { text: "O(V)", correct: false },
       { text: "O(V log V)", correct: false },
       { text: "O(V + E)", correct: true },
@@ -682,7 +682,7 @@ const questions = [
   {
     question:
       "In the context of the Bellman-Ford algorithm, what does 'V' represent?",
-    answers: [
+    answeers: [
       { text: "The number of vertices in the graph", correct: true },
       { text: "The number of edges in the graph", correct: false },
       { text: "The maximum possible weight of an edge", correct: false },
@@ -692,7 +692,7 @@ const questions = [
   {
     question:
       "What does the Bellman-Ford algorithm initialize the shortest distance to each vertex with?",
-    answers: [
+    answeers: [
       { text: "Positive infinity", correct: true },
       { text: "Negative infinity", correct: false },
       { text: "Zero", correct: false },
@@ -702,7 +702,7 @@ const questions = [
   {
     question:
       "What is the purpose of the relaxation step in the Bellman-Ford algorithm?",
-    answers: [
+    answeers: [
       { text: "To initialize the shortest distances", correct: false },
       {
         text: "To update the shortest distances if a shorter path is found",
@@ -718,7 +718,7 @@ const questions = [
   {
     question:
       "What does a negative cycle in a graph indicate in the context of the Bellman-Ford algorithm?",
-    answers: [
+    answeers: [
       { text: "The graph has no shortest paths", correct: false },
       {
         text: "The graph contains edges with negative weights",
@@ -737,7 +737,7 @@ const questions = [
   {
     question:
       "Which step in the Bellman-Ford algorithm detects negative cycles?",
-    answers: [
+    answeers: [
       { text: "Initialization", correct: false },
       { text: "Relaxation", correct: false },
       { text: "Shortest path determination", correct: false },
@@ -746,7 +746,7 @@ const questions = [
   },
   {
     question: "When does the Bellman-Ford algorithm terminate?",
-    answers: [
+    answeers: [
       { text: "After a fixed number of iterations", correct: false },
       { text: "When all vertices have been visited", correct: false },
       { text: "When no more relaxation can be performed", correct: true },
@@ -756,7 +756,7 @@ const questions = [
   {
     question:
       "What does the Bellman-Ford algorithm return if a negative cycle is detected?",
-    answers: [
+    answeers: [
       { text: "The shortest paths to all vertices", correct: false },
       {
         text: "The shortest path from the source vertex to a specific target vertex",
@@ -771,7 +771,7 @@ const questions = [
   },
   {
     question: "What is the Dial's Algorithm used for?",
-    answers: [
+    answeers: [
       { text: "Finding the maximum flow in a network", correct: false },
       { text: "Sorting elements in an array", correct: false },
       {
@@ -783,7 +783,7 @@ const questions = [
   },
   {
     question: "Which data structure does the Dial's Algorithm utilize?",
-    answers: [
+    answeers: [
       { text: "Arrays", correct: true },
       { text: "Linked lists", correct: false },
       { text: "Priority queues", correct: false },
@@ -792,7 +792,7 @@ const questions = [
   },
   {
     question: "What does each bucket in the Dial's Algorithm contain?",
-    answers: [
+    answeers: [
       { text: "Vertices", correct: true },
       { text: "Edges", correct: false },
       { text: "Distances from the source vertex", correct: false },
@@ -801,7 +801,7 @@ const questions = [
   },
   {
     question: "How are the buckets indexed in the Dial's Algorithm?",
-    answers: [
+    answeers: [
       { text: "By vertex IDs", correct: false },
       { text: "By vertex distances from the source", correct: true },
       { text: "By edge weights", correct: false },
@@ -810,7 +810,7 @@ const questions = [
   },
   {
     question: "What is the time complexity of the Dial's Algorithm?",
-    answers: [
+    answeers: [
       { text: "O(V)", correct: false },
       { text: "O(V log V)", correct: false },
       { text: "O(V + E)", correct: true },
@@ -819,7 +819,7 @@ const questions = [
   },
   {
     question: "When does the Dial's Algorithm terminate?",
-    answers: [
+    answeers: [
       { text: "When all vertices are visited", correct: false },
       { text: "When all buckets are empty", correct: true },
       { text: "When a negative cycle is detected", correct: false },
@@ -829,7 +829,7 @@ const questions = [
   {
     question:
       "What operation is performed during each iteration of the Dial's Algorithm?",
-    answers: [
+    answeers: [
       { text: "Vertex relaxation", correct: true },
       { text: "Edge relaxation", correct: false },
       { text: "Bucket selection", correct: false },
@@ -839,7 +839,7 @@ const questions = [
   {
     question:
       "What does the Dial's Algorithm prioritize during bucket selection?",
-    answers: [
+    answeers: [
       { text: "Buckets with the most vertices", correct: false },
       { text: "Buckets with the fewest vertices", correct: true },
       { text: "Buckets with the highest distances", correct: false },
@@ -848,7 +848,7 @@ const questions = [
   },
   {
     question: "Which type of graphs is the Dial's Algorithm most suitable for?",
-    answers: [
+    answeers: [
       { text: "Graphs with negative edge weights", correct: false },
       { text: "Graphs with positive edge weights", correct: false },
       {
@@ -860,7 +860,7 @@ const questions = [
   },
   {
     question: "What does the Dial's Algorithm return as output?",
-    answers: [
+    answeers: [
       { text: "The maximum flow in the network", correct: false },
       {
         text: "The shortest paths from the source vertex to all other vertices",
@@ -873,7 +873,7 @@ const questions = [
 
   {
     question: "What is topological sorting used for?",
-    answers: [
+    answeers: [
       { text: "Finding shortest paths in a graph", correct: false },
       { text: "Detecting cycles in a graph", correct: false },
       { text: "Ordering tasks with dependencies", correct: true },
@@ -883,7 +883,7 @@ const questions = [
   {
     question:
       "Which of the following data structures is commonly used to implement topological sorting?",
-    answers: [
+    answeers: [
       { text: "Queue", correct: false },
       { text: "Stack", correct: true },
       { text: "Array", correct: false },
@@ -893,7 +893,7 @@ const questions = [
   {
     question:
       "In a directed acyclic graph (DAG), topological sorting results in:",
-    answers: [
+    answeers: [
       { text: "A linear ordering of vertices", correct: true },
       { text: "A minimum spanning tree", correct: false },
       { text: "A cyclic dependency graph", correct: false },
@@ -903,7 +903,7 @@ const questions = [
   {
     question:
       "Which algorithm is commonly used to perform topological sorting?",
-    answers: [
+    answeers: [
       { text: "Breadth-first search (BFS)", correct: false },
       { text: "Depth-first search (DFS)", correct: true },
       { text: "Dijkstra's algorithm", correct: false },
@@ -913,7 +913,7 @@ const questions = [
   {
     question:
       "In topological sorting, vertices with no incoming edges are processed:",
-    answers: [
+    answeers: [
       { text: "First", correct: true },
       { text: "Last", correct: false },
       { text: "Randomly", correct: false },
@@ -923,7 +923,7 @@ const questions = [
   {
     question:
       "If a graph has a cycle, what happens during topological sorting?",
-    answers: [
+    answeers: [
       { text: "The algorithm fails", correct: true },
       { text: "The cycle is ignored", correct: false },
       { text: "The cycle is broken", correct: false },
@@ -932,7 +932,7 @@ const questions = [
   },
   {
     question: "Topological sorting can be applied to which type of graphs?",
-    answers: [
+    answeers: [
       { text: "Directed graphs", correct: true },
       { text: "Undirected graphs", correct: false },
       { text: "Weighted graphs", correct: false },
@@ -942,7 +942,7 @@ const questions = [
   {
     question:
       "Which of the following statements is true about topological sorting?",
-    answers: [
+    answeers: [
       {
         text: "It always produces a unique ordering of vertices.",
         correct: false,
@@ -961,7 +961,7 @@ const questions = [
   {
     question:
       "In a directed acyclic graph (DAG), if there are multiple vertices with no incoming edges, which one is processed first during topological sorting?",
-    answers: [
+    answeers: [
       { text: "The vertex with the highest index", correct: false },
       { text: "The vertex with the lowest index", correct: false },
       { text: "Any of the vertices with no incoming edges", correct: true },
@@ -971,7 +971,7 @@ const questions = [
   {
     question:
       "In a directed acyclic graph (DAG) with vertices a, b, c, d, and e and edges ab, bc, cd, and de, what would be the topological sorting order?",
-    answers: [
+    answeers: [
       { text: "a, b, c, d, e", correct: false },
       { text: "e, d, c, b, a", correct: false },
       { text: "a, e, b, c, d", correct: false },
@@ -980,7 +980,7 @@ const questions = [
   },
   {
     question: "What does vertical order traversal of a binary tree involve?",
-    answers: [
+    answeers: [
       { text: "Traversing the tree level by level", correct: false },
       { text: "Visiting nodes from left to right", correct: false },
       { text: "Exploring nodes from top to bottom", correct: false },
@@ -993,7 +993,7 @@ const questions = [
   {
     question:
       "Which data structure is commonly used to perform vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "Array", correct: false },
       { text: "Queue", correct: true },
       { text: "Stack", correct: false },
@@ -1003,7 +1003,7 @@ const questions = [
   {
     question:
       "In vertical order traversal, nodes at the same horizontal distance are visited in which order?",
-    answers: [
+    answeers: [
       { text: "Random", correct: false },
       { text: "Pre-order", correct: false },
       { text: "Level-order", correct: true },
@@ -1013,7 +1013,7 @@ const questions = [
   {
     question:
       "What is the time complexity of vertical order traversal in a binary tree with n nodes?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: true },
       { text: "O(n log n)", correct: false },
       { text: "O(n^2)", correct: false },
@@ -1023,7 +1023,7 @@ const questions = [
   {
     question:
       "Which traversal technique is typically used to implement vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "Depth-first traversal", correct: false },
       { text: "Breadth-first traversal", correct: true },
       { text: "In-order traversal", correct: false },
@@ -1033,7 +1033,7 @@ const questions = [
   {
     question:
       "In vertical order traversal, which node is visited first at a particular horizontal distance?",
-    answers: [
+    answeers: [
       { text: "Left child", correct: false },
       { text: "Right child", correct: false },
       { text: "Root node", correct: true },
@@ -1043,7 +1043,7 @@ const questions = [
   {
     question:
       "If two nodes in a binary tree have the same horizontal distance from the root, which one is visited first in vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "Left node", correct: true },
       { text: "Right node", correct: false },
       { text: "It depends on the tree structure", correct: false },
@@ -1053,7 +1053,7 @@ const questions = [
   {
     question:
       "Which of the following statements is true about vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "It only works for balanced binary trees", correct: false },
       {
         text: "It doesn't guarantee the nodes will be visited in sorted order",
@@ -1068,7 +1068,7 @@ const questions = [
   },
   {
     question: "What is the space complexity of vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: true },
       { text: "O(log n)", correct: false },
       { text: "O(1)", correct: false },
@@ -1078,7 +1078,7 @@ const questions = [
   {
     question:
       "Which of the following scenarios might require additional techniques to handle during vertical order traversal?",
-    answers: [
+    answeers: [
       { text: "Binary tree with only one child per node", correct: false },
       {
         text: "Binary tree with multiple nodes at the same horizontal distance",
@@ -1090,7 +1090,7 @@ const questions = [
   },
   {
     question: "What does boundary traversal of a binary tree involve?",
-    answers: [
+    answeers: [
       { text: "Visiting all nodes in a left-to-right order", correct: false },
       { text: "Exploring nodes from top to bottom", correct: false },
       {
@@ -1103,7 +1103,7 @@ const questions = [
   {
     question:
       "Which of the following nodes is included in the boundary traversal of a binary tree?",
-    answers: [
+    answeers: [
       { text: "Only leaf nodes", correct: false },
       { text: "Only internal nodes", correct: false },
       { text: "Both leaf and internal nodes", correct: true },
@@ -1112,7 +1112,7 @@ const questions = [
   },
   {
     question: "In boundary traversal, in what order are the nodes visited?",
-    answers: [
+    answeers: [
       { text: "Pre-order", correct: true },
       { text: "In-order", correct: false },
       { text: "Post-order", correct: false },
@@ -1122,7 +1122,7 @@ const questions = [
   {
     question:
       "What is the time complexity of boundary traversal in a binary tree with n nodes?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: true },
       { text: "O(n log n)", correct: false },
       { text: "O(n^2)", correct: false },
@@ -1132,7 +1132,7 @@ const questions = [
   {
     question:
       "Which traversal technique is typically used to implement boundary traversal?",
-    answers: [
+    answeers: [
       { text: "Depth-first traversal", correct: true },
       { text: "Breadth-first traversal", correct: false },
       { text: "In-order traversal", correct: false },
@@ -1141,7 +1141,7 @@ const questions = [
   },
   {
     question: "In boundary traversal, which node is visited first?",
-    answers: [
+    answeers: [
       { text: "Left child", correct: false },
       { text: "Right child", correct: false },
       { text: "Root node", correct: true },
@@ -1151,7 +1151,7 @@ const questions = [
   {
     question:
       "If a binary tree has only one node, how many nodes will be included in its boundary traversal?",
-    answers: [
+    answeers: [
       { text: "0", correct: false },
       { text: "1", correct: true },
       { text: "2", correct: false },
@@ -1161,7 +1161,7 @@ const questions = [
   {
     question:
       "Which of the following statements is true about boundary traversal?",
-    answers: [
+    answeers: [
       { text: "It always starts from the leftmost leaf node", correct: false },
       {
         text: "It includes all nodes except for the leaf nodes",
@@ -1176,7 +1176,7 @@ const questions = [
   },
   {
     question: "What is the space complexity of boundary traversal?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: true },
       { text: "O(log n)", correct: false },
       { text: "O(1)", correct: false },
@@ -1186,7 +1186,7 @@ const questions = [
   {
     question:
       "Which of the following scenarios might require additional techniques to handle during boundary traversal?",
-    answers: [
+    answeers: [
       { text: "Binary tree with only one child per node", correct: false },
       {
         text: "Binary tree with multiple nodes at the same level",
@@ -1199,7 +1199,7 @@ const questions = [
 
   {
     question: "What is heap sort primarily used for?",
-    answers: [
+    answeers: [
       { text: "Sorting linked lists", correct: false },
       { text: "Sorting arrays", correct: true },
       { text: "Searching in trees", correct: false },
@@ -1208,7 +1208,7 @@ const questions = [
   },
   {
     question: "Which data structure is used to implement heap sort?",
-    answers: [
+    answeers: [
       { text: "Queue", correct: false },
       { text: "Stack", correct: false },
       { text: "Heap", correct: true },
@@ -1217,7 +1217,7 @@ const questions = [
   },
   {
     question: "What type of heap is typically used in heap sort?",
-    answers: [
+    answeers: [
       { text: "Max heap", correct: true },
       { text: "Min heap", correct: false },
       { text: "Binary tree", correct: false },
@@ -1227,7 +1227,7 @@ const questions = [
   {
     question:
       "What is the time complexity of heap sort in the worst-case scenario?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: false },
       { text: "O(n log n)", correct: true },
       { text: "O(n^2)", correct: false },
@@ -1237,7 +1237,7 @@ const questions = [
   {
     question:
       "In heap sort, which operation is used to ensure that the heap property is maintained?",
-    answers: [
+    answeers: [
       { text: "Insertion", correct: false },
       { text: "Deletion", correct: false },
       { text: "Heapify", correct: true },
@@ -1246,7 +1246,7 @@ const questions = [
   },
   {
     question: "Which of the following statements is true about heap sort?",
-    answers: [
+    answeers: [
       { text: "It is a stable sorting algorithm", correct: false },
       {
         text: "It requires additional storage space proportional to the size of the input",
@@ -1262,7 +1262,7 @@ const questions = [
   {
     question:
       "In heap sort, after building the heap, what is the root element of the heap?",
-    answers: [
+    answeers: [
       { text: "Maximum element", correct: true },
       { text: "Minimum element", correct: false },
       { text: "Median element", correct: false },
@@ -1271,7 +1271,7 @@ const questions = [
   },
   {
     question: "Which of the following is a drawback of heap sort?",
-    answers: [
+    answeers: [
       { text: "It is not a stable sorting algorithm", correct: true },
       { text: "It cannot handle large datasets", correct: false },
       {
@@ -1283,7 +1283,7 @@ const questions = [
   },
   {
     question: "What is the space complexity of heap sort?",
-    answers: [
+    answeers: [
       { text: "O(n)", correct: false },
       { text: "O(log n)", correct: false },
       { text: "O(1)", correct: true },
@@ -1293,7 +1293,7 @@ const questions = [
   {
     question:
       "Which sorting algorithm does heap sort share similarities with in terms of its underlying data structure?",
-    answers: [
+    answeers: [
       { text: "Bubble sort", correct: false },
       { text: "Merge sort", correct: true },
       { text: "Quick sort", correct: false },
@@ -1302,7 +1302,7 @@ const questions = [
   },
   {
     question: "What is a K-ary heap?",
-    answers: [
+    answeers: [
       {
         text: "A binary tree where each node has at most K children",
         correct: true,
@@ -1315,7 +1315,7 @@ const questions = [
   {
     question:
       "In a K-ary heap, what is the maximum number of elements in the last level if there are N elements in total?",
-    answers: [
+    answeers: [
       { text: "K", correct: false },
       { text: "K - 1", correct: false },
       { text: "N % K", correct: true },
@@ -1325,7 +1325,7 @@ const questions = [
   {
     question:
       "Which operation has a time complexity of O(log K) in a K-ary heap?",
-    answers: [
+    answeers: [
       { text: "Insertion", correct: true },
       { text: "Deletion", correct: false },
       { text: "Building a heap", correct: false },
@@ -1334,7 +1334,7 @@ const questions = [
   },
   {
     question: "How is a K-ary heap represented in memory?",
-    answers: [
+    answeers: [
       { text: "As a binary tree", correct: false },
       { text: "As an array", correct: true },
       { text: "As a linked list", correct: false },
@@ -1343,7 +1343,7 @@ const questions = [
   },
   {
     question: "What is the height of a K-ary heap with N elements?",
-    answers: [
+    answeers: [
       { text: "log(N)", correct: false },
       { text: "log(K, N)", correct: true },
       { text: "N/K", correct: false },
@@ -1353,7 +1353,7 @@ const questions = [
   {
     question:
       "Which operation requires the most work in a K-ary heap when removing the root element?",
-    answers: [
+    answeers: [
       { text: "Finding the parent node", correct: false },
       { text: "Finding the children nodes", correct: false },
       { text: "Reorganizing the heap", correct: true },
@@ -1363,7 +1363,7 @@ const questions = [
   {
     question:
       "In a K-ary heap, what is the relationship between the index of a parent node and its children?",
-    answers: [
+    answeers: [
       {
         text: "The parent index is greater than its children indices",
         correct: false,
@@ -1384,7 +1384,7 @@ const questions = [
   },
   {
     question: "Which of the following is true about a K-ary heap?",
-    answers: [
+    answeers: [
       {
         text: "It guarantees constant time for all operations",
         correct: false,
@@ -1397,7 +1397,7 @@ const questions = [
   {
     question:
       "How many comparisons are needed in the worst-case scenario for finding the maximum element in a K-ary heap?",
-    answers: [
+    answeers: [
       { text: "K", correct: true },
       { text: "log(K)", correct: false },
       { text: "K log(K)", correct: false },
@@ -1407,7 +1407,7 @@ const questions = [
   {
     question:
       "Which of the following is a disadvantage of using a large value of K in a K-ary heap?",
-    answers: [
+    answeers: [
       { text: "Faster insertion operation", correct: false },
       { text: "Increased space efficiency", correct: false },
       { text: "Slower heapification process", correct: true },
